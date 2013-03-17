@@ -1,0 +1,1 @@
+mvn compile exec:java -Dexec.mainClass="org.hibernate.tutorial.EventManager" -Dexec.args="store"

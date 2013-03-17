@@ -1,0 +1,14 @@
+Chapter 1. Tutorial
+docs.jboss.org/hibernate/orm/3.3/reference/en/html/tutorial.html#tutorial-firstapp-setup
+
+Hibernate Tutorial for Beginners | The Sencide Blog
+blog.sencide.com/2011/03/hibernate-tutorial-for-beginners.html
+
+Hibernate Configuration
+www.tutorialspoint.com/hibernate/hibernate_configuration.htm
+
+Hibernate Tutorial video
+www.youtube.com/watch?v=iaSd_yK9xaw
+
+Event Manager (saját webes)
+localhost:57013/hibernate-tutorial-1.0-SNAPSHOT/eventmanager
