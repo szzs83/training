@@ -1,17 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE hibernate-configuration PUBLIC
-"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
-"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
-<hibernate-configuration>
-    <session-factory>
-        <property name="hibernate.connection.driver_class"> org.hsqldb.jdbcDriver</property>
-        <property name="hibernate.connection.url"> jdbc:hsqldb:hsql://localhost</property>
-        <property name="hibernate.connection.username">sa</property>
-        <property name="connection.password"></property>
-        <property name="connection.pool_size">1</property>
-        <property name="hibernate.dialect"> org.hibernate.dialect.HSQLDialect</property>
-        <property name="show_sql">true</property>
-        <property name="hbm2ddl.auto">create</property>
-        <mapping resource="com/vaannila/course/Course.hbm.xml"/>
-    </session-factory>
-</hibernate-configuration>
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.vaannila.course">        
+<!--     <class name="Course" table="COURSES"> -->
+<!--         <id name="courseId" column="COURSE_ID"> -->
+<!--             <generator class="native"/> -->
+<!--         </id> -->
+<!--         <property name="courseName"/> -->
+<!--     </class> -->
+    <class name="Course">
+        <id name="courseId">
+            <generator class="native"/>
+        </id>
+        <property name="courseName"/>
+    </class>
+
+
+</hibernate-mapping>
