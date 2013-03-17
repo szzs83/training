@@ -7,7 +7,7 @@
 
 	<session-factory>
 
-		Database connection settings
+<!-- 		Database connection settings -->
 		<property name="connection.driver_class">org.hsqldb.jdbcDriver</property>
 		<property name="connection.url">jdbc:hsqldb:hsql://localhost</property>
 		<property name="connection.username">sa</property>
